@@ -60,6 +60,13 @@ This project contains multiple mini web projects, each in its own folder. The pr
     - `form.css`: Styles for the form.
     - `la.jpg`, `wh.jpeg`: Images used in the form.
 
+- **PRODUCT-CARD/**
+  - Product card UI demo for a watch.
+  - Main files:
+    - `index.HTML`: Main HTML file for the product card.
+    - `PRODUCT.CSS`: Styles for the product card.
+    - `wat.png`: Image of the product.
+
 ---
 
 ## How to Use
