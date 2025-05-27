@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  font-size: arial;
+  border: border-box;
+}
+body {
+  background-image: url(la.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 400px) and (max-width: 550px) {
+  body {
+    background-image: url(wh.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+header {
+  display: flex;
+  width: 200px;
+  background-image: transparent;
+}
+
+.loge {
+  height: 70px;
+  background-image: 1px solid transparent;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  height: 70px;
+  width: 250px;
+  background-image: url("/apma/apma/apma.png");
+  background-size: cover;
+}
+@media (max-width: 400px) and (max-width: 550px) {
+  .logo {
+    width: 210px;
+    height: 65px;
+  }
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 400px) and (max-width: 550px) {
+  .box {
+    width: 500px;
+    height: 100px;
+  }
+}
+.form {
+  height: 600px;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 120px;
+}
+@media (max-width: 400px) and (max-width: 550px) {
+  .form {
+    width: 500px;
+    height: 100px;
+  }
+}
+ul a {
+  display: block;
+  font-size: 1.15rem;
+  margin-top: 40px;
+  margin-right: 400px;
+  color: black;
+  text-decoration: none;
+}
+@media (max-width: 400px) and (max-width: 550px) {
+  .ul {
+    width: 400px;
+  }
+}
+input:hover {
+  border: 2px solid white;
+  color: white solid;
+}
+input {
+  background: transparent;
+  border: 2px solid black;
+  height: 30px;
+  font-size: 1rem;
+  text-decoration: none;
+  width: 300px;
+  border-radius: 50px;
+}
+@media (max-width: 400px) and (max-width: 550px) {
+  input {
+    width: 180px;
+  }
+}
+.bottom {
+  height: 10px;
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-right: 20px;
+  color: #007185;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.bottom:hover {
+  text-decoration: underline 2px solid white;
+  color: #2467b9;
+}
+.lg {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 400px) and (max-width: 550px) {
+  .lg {
+     width: 300px;
+    .sign {
+      width: 70px;
+    }
+    .log {
+      width: 70px;
+      margin-left: 190px;
+    }
+  }
+}
+.sign {
+  height: 30px;
+  width: 70px;
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+  justify-content: left;
+}
+.log {
+  height: 30px;
+  width: 70px;
+  font-size: 20px;
+  margin-left: 300px;
+}

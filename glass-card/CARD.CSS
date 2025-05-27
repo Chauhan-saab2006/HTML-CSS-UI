@@ -1,0 +1,44 @@
+body {
+  background-image: url(card2.avif);
+  background-size: cover;
+}
+.div1 {
+  height: 300px;
+  width: 500px;
+  margin-left: 34%;
+  border-radius: 20px;
+  margin-top: 200px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  transition: transform 1s ease-in-out;
+}
+.div1:hover {
+  border-radius: 5px;
+  border-color: white;
+  transform: scale(1.2);
+}
+.div2 {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-left: 230px;
+  background-image: url(ash.jpg);
+  background-size: cover;
+}
+.div2:hover {
+  border: 2px solid white;
+}
+.div3 {
+  margin-top: 5px;
+}
+.div3:hover {
+  border: 2px solid white;
+}
+#button {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+#button:hover {
+  background-color: aqua;
+  border: 2px solid white;
+}

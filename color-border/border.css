@@ -1,0 +1,51 @@
+* {
+  background-color: black;
+}
+.child1 {
+  height: 390px;
+  width: 390px;
+  border-radius: 50%;
+  margin-left: 605px;
+  margin-top: 206px;
+  top: -50px;
+  left: -50px;
+  position: absolute;
+  background-image: url(ash.jpg);
+  /* background-color: red; */
+  background-size: cover;
+}
+.child2 {
+  height: 400px;
+  width: 400px;
+  align-items: center;
+  z-index: -1;
+  top: -50px;
+  left: -50px;
+  margin-top: 200px;
+  margin-left: 600px;
+  position: absolute;
+  border-radius: 50%;
+  background: conic-gradient(
+    red,
+    blue,
+    green,
+    yellow,
+    pink,
+    orange,
+    indigo,
+    violet,
+    lime,
+    silver,
+    gold,
+    cyan
+  );
+  animation: loader 1s linear 0s infinite;
+}
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
