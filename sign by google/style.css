@@ -142,3 +142,9 @@ input {
   font-size: 20px;
   margin-left: 300px;
 }
+
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
