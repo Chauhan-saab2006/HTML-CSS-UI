@@ -23,7 +23,7 @@
   height: 6px;
   width: 10px;
   margin-right: 80px;
-  background-image: url(down1.png);
+  background-image: url(other/down1.png);
   background-size: cover;
   background-color: transparent;
 }
@@ -36,7 +36,7 @@
 }
 
 .thread {
-  background-image: url(thread.png);
+  background-image: url(other/thread.png);
   background-size: cover;
   height: 23px;
   width: 23px;
@@ -45,14 +45,14 @@
 }
 
 .plus {
-  background-image: url(plus.png);
+  background-image: url(other/plus.png);
   background-size: cover;
   height: 30px;
   width: 30px;
 }
 
 .menu {
-  background-image: url(menu.png);
+  background-image: url(other/menu.png);
   background-size: cover;
   height: 30px;
   width: 30px;
@@ -69,7 +69,8 @@
 .dp {
   height: 80px;
   width: 80px;
-  background-image: url(adityadp.jpg);
+  border-radius:50% ;
+  background-image: url(chauhan/chauhandp.jpeg);
   background-size: cover;
   margin-right: 20px;
 }
@@ -142,7 +143,7 @@
   width: 9.5rem;
   margin-left: 10px;
   margin-top: 20px;
-  background-image: url(adityabio.jpg);
+  background-image: url(chauhan/);
   background-size: cover;
 }
 
@@ -226,7 +227,7 @@
   /* border: 3px solid rgb(86, 84, 84); */
   /* border-radius: 50%; */
   /* background-color: red; */
-  background-image: url(adityalight.jpg);
+  background-image: url(chauhan/chauhanh\ light\ 1.jpg);
   background-size: cover;
 }
 
@@ -247,7 +248,7 @@
   /* border-color: rgb(86, 84, 84); */
   /* border-radius: 50%; */
   /* background-color: red; */
-  background-image: url(lightplus.jpg);
+  background-image: url(chauhan/chauhanh\ light\ 2.jpg);
   background-size: cover;
 }
 
@@ -265,7 +266,7 @@
   /* border: 3px solid rgb(86, 84, 84); */
   /* border-radius: 50%; */
   background-color: red;
-  background-image: url(badallight3.jpg);
+  background-image: url(chauhan);
   background-size: cover;
 }
 
@@ -338,14 +339,14 @@
 .post1 {
   height: 600px;
   /* margin-bottom: 35px; */
-  background-image: url(adityapost1.jpg);
+  background-image: url(chauhan/chauhanpost1.jpg);
   background-size: cover;
 }
 
 .post2 {
   height: 100px;
   margin-bottom: 35px;
-  background-image: url(adityapost2.jpg);
+  background-image: url(chauhan/chauhanpost2.jpg);
   background-size: cover;
 }
 
