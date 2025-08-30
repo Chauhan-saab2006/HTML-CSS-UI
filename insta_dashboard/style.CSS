@@ -69,8 +69,9 @@
 .dp {
   height: 80px;
   width: 80px;
-  border-radius:50% ;
-  background-image: url(chauhan/chauhandp.jpeg);
+  border-radius: 50%;
+  /* background-image: url(chauhan/chauhandp.jpeg); */
+  background-image: url(aditya/adityadp.jpg);
   background-size: cover;
   margin-right: 20px;
 }
@@ -143,7 +144,7 @@
   width: 9.5rem;
   margin-left: 10px;
   margin-top: 20px;
-  background-image: url(chauhan/);
+  background-image: url(aditya/adityabio.jpg);
   background-size: cover;
 }
 
@@ -220,14 +221,15 @@
 
 .light1 {
   height: 85px;
-  width: 220px;
+  width: 85px;
   margin-left: 20px;
   display: flex;
-  /* align-items: center; */
-  /* border: 3px solid rgb(86, 84, 84); */
-  /* border-radius: 50%; */
+  align-items: center;
+  border: 3px solid rgb(86, 84, 84);
+  border-radius: 50%;
   /* background-color: red; */
   background-image: url(chauhan/chauhanh\ light\ 1.jpg);
+  /* background-image: url(aditya/adityalight.jpg); */
   background-size: cover;
 }
 
@@ -248,7 +250,7 @@
   /* border-color: rgb(86, 84, 84); */
   /* border-radius: 50%; */
   /* background-color: red; */
-  background-image: url(chauhan/chauhanh\ light\ 2.jpg);
+  background-image: url(chauhan/chauhanh\ );
   background-size: cover;
 }
 
@@ -339,48 +341,49 @@
 .post1 {
   height: 600px;
   /* margin-bottom: 35px; */
-  background-image: url(chauhan/chauhanpost1.jpg);
+  background-image: url(aditya/adityapost1.jpg);
   background-size: cover;
 }
 
 .post2 {
   height: 100px;
   margin-bottom: 35px;
-  background-image: url(chauhan/chauhanpost2.jpg);
+  /* background-image: url(chauhan/chauhanpost2.jpg); */
+  background-image: url(aditya/adityapost2.jpg);
   background-size: cover;
 }
 
 .post3 {
   height: 600px;
   /* margin-bottom: 35px; */
-  background-image: url(anujpost3.jpg);
+  /* background-image: url(anujpost3.jpg); */
   background-size: cover;
 }
 
 .post4 {
   height: 600px;
   /* margin-bottom: 35px; */
-  background-image: url(anujpost4.jpg);
+  /* background-image: url(anujpost4.jpg); */
   background-size: cover;
 }
 
 .post5 {
   height: 490px;
-  background-image: url(anujpost5.jpg);
+  /* background-image: url(anujpost5.jpg); */
   background-size: cover;
   /* margin-bottom: 35px; */
 }
 
 .post6 {
   height: 360px;
-  background-image: url(badalpost6.jpg);
+  /* background-image: url(badalpost6.jpg); */
   background-size: cover;
 }
 
 .post7 {
   height: 360px;
   /* margin-bottom: 35px; */
-  background-image: url(badalpost7.jpg);
+  /* background-image: url(badalpost7.jpg); */
   background-size: cover;
 }
 
@@ -395,16 +398,18 @@
   justify-content: space-evenly;
   /* background-color: red; */
 }
-.home{
+
+.home {
   height: 40px;
   width: 50px;
-  background-image: url(home_img.jpg);
+  background-image: url(other/home_img.jpg);
   background-size: cover;
 }
+
 .icons1 {
   height: 40px;
   width: 50px;
-  background-image: url(search_img.jpg);
+  background-image: url(other/search_img.jpg);
   background-size: cover;
 }
 
@@ -412,7 +417,7 @@
   height: 45px;
   width: 120px;
   margin-bottom: 50;
-  background-image: url(bottonicon2.jpg);
+  background-image: url(other/bottonicon2.jpg);
   background-size: cover;
 }
 
@@ -420,7 +425,7 @@
   height: 30px;
   width: 30px;
   margin-left: 20px;
-  background-image: url(adityadp.jpg);
+  background-image: url(aditya/adityadp.jpg);
   background-size: cover;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
