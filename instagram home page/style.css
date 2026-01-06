@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.head {
+    height: 50px;
+    display: flex;
+
+}
+
+.insta_img {
+    height: 40px;
+    width: 120px;
+    color: white;
+    margin-left: 10px;
+    background-image: url(images/inst_logo1.jpg);
+    background-size: cover;
+    background-color: black;
+}
+
+.notification {
+    height: 30px;
+    width: 35px;
+    margin-left: 130px;
+    background-image: url(images/noti3.jpg);
+    /* background-image: url(noti3.jpg); */
+    background-size: cover;
+}
+
+.message {
+    height: 25px;
+    width: 30px;
+    margin-left: 20px;
+    background-image: url(images/message2.png);
+    /* background-image: url(message2.png); */
+    background-size: cover;
+}
+
+.storys_section {
+    display: flex;
+    white-space: nowrap;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    overflow-x: auto;
+    height: 110px;
+}
+
+
+
+.your_story_box {
+    height: 75px;
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: rgb(41, 40, 40);
+    /* background: conic-gradient(rgb(255, 0, 255),
+            rgb(255, 0, 255),
+            rgb(210, 0, 35),
+            rgb(255, 166, 0),
+            rgb(255, 217, 0),
+            rgb(255, 166, 0),
+            rgb(255, 0, 43)); */
+}
+
+.your_dp {
+    height: 70px;
+    width: 70px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 2px;
+    margin-top: 2px;
+    justify-content: flex-end;
+    background-image: url(images/dp.jpg);
+    /* background-image: url(images/dp.jpg); */
+    background-size: cover;
+}
+
+.your_story {
+    height: 10px;
+    text-align: center;
+    color: rgb(149, 149, 149);
+    margin-top: 8px;
+}
+
+
+.following_story_box1 {
+    height: 75px;
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: rgb(41, 40, 40);
+    /* background: conic-gradient(rgb(255, 0, 255),
+            rgb(255, 0, 255),
+            rgb(210, 0, 35),
+            rgb(255, 166, 0),
+            rgb(255, 217, 0),
+            rgb(255, 166, 0),
+            rgb(255, 0, 43)); */
+}
+
+.following_story_dp1 {
+    height: 70px;
+    width: 70px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 2px;
+    margin-top: 2px;
+    justify-content: flex-end;
+    background-image: url(images/default_dp.jpg);
+    background-size: cover;
+}
+
+.following_name1 {
+    height: 10px;
+    text-align: center;
+    color: rgb(149, 149, 149);
+    margin-top: 8px;
+}
+
+
+.following_story_box2 {
+    height: 75px;
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: rgb(41, 40, 40);
+    /* background: conic-gradient(rgb(255, 0, 255),
+            rgb(255, 0, 255),
+            rgb(210, 0, 35),
+            rgb(255, 166, 0),
+            rgb(255, 217, 0),
+            rgb(255, 166, 0),
+            rgb(255, 0, 43)); */
+}
+
+.following_story_dp2 {
+    height: 70px;
+    width: 70px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 2px;
+    margin-top: 2px;
+    justify-content: flex-end;
+    background-image: url(images/default_dp.jpg);
+    background-size: cover;
+}
+
+.following_name2 {
+    height: 10px;
+    text-align: center;
+    color: rgb(149, 149, 149);
+    margin-top: 8px;
+}
+
+
+.following_story_box3 {
+    height: 75px;
+    width: 75px;
+    margin-top: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: rgb(41, 40, 40);
+    /* background: conic-gradient(rgb(255, 0, 255),
+            rgb(255, 0, 255),
+            rgb(210, 0, 35),
+            rgb(255, 166, 0),
+            rgb(255, 217, 0),
+            rgb(255, 166, 0),
+            rgb(255, 0, 43)); */
+
+}
+
+.following_story_dp3 {
+    height: 70px;
+    width: 70px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 2px;
+    margin-top: 2px;
+    justify-content: flex-end;
+    background-image: url(images/goku_dp.jpg);
+    background-size: cover;
+}
+
+.following_name3 {
+    height: 10px;
+    text-align: center;
+    color: #959595;
+    margin-top: 8px;
+}
+
+
+
+.update {
+    height: 50px;
+    display: flex;
+    /* margin-top: 30px; */
+    /* background-color: red;    */
+}
+
+.update_logo {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    padding: 3%;
+    background-image: url(images/insta_tick.jpg);
+    background-size: cover;
+    background-color: blue;
+}
+
+.update_text {
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 8px;
+    font-size: small;
+    color: rgb(167, 159, 159);
+}
+
+.content_header {
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    /* background-color: green; */
+}
+
+.content_head1 {
+    height: 30px;
+    width: 200px;
+    color: white;
+    font-weight: bolder;
+}
+
+.content_head2 {
+    height: 30px;
+    margin-left: 60px;
+    /* width: 200px; */
+    color: #0095f6;
+    font-size: 80%;
+    font-weight: bolder;
+}
+
+.post1 {
+    height: 600px;
+    background-image: url(images/post1.jpg);
+    background-size: cover;
+}
+
+.post2 {
+    height: 600px;
+    background-image: url(images/post2.jpg);
+    background-size: cover;
+}
+
+.bottom {
+    height: 40px;
+    width: 390px;
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    border-top: 1px solid rgb(161, 161, 161);
+    justify-content: space-evenly;
+    background-color: black;
+    /* z-index: 1000;  */
+    /* padding: 10px; */
+    /* background-color: red; */
+}
+
+.icons1 {
+
+    height: 45px;
+    width: 120px;
+    background-image: url(images/home_logo.jpg);
+    background-size: cover;
+
+}
+
+.icons2 {
+    height: 45px;
+    width: 120px;
+    margin-bottom: 50px;
+    background-image: url(images/bottonicon2.jpg);
+    background-size: cover;
+}
+
+.dpicon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-image: url(images/dp.jpg);
+    background-size: cover;
+    background-color: aqua;
+}
